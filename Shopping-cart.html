@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/bootstrap-5.1.3-dist/css/bootstrap.min.css">
+    <link rel="icon" type="image/x-icon" href="pp.png">
+    <style>
+        *{
+        margin: 0;
+        padding: 0;
+    }
+    
+    aside{
+    position: absolute;
+    margin-top: -30px;
+    margin-left: 8px; 
+    width: 300px;
+    height: 900px;
+    
+    
+   border: 1px solid #E4E4E4;
+   border-radius: 8px;
+   box-sizing: border-box;
+} 
+        a{
+            text-decoration: none;
+        }
+    </style>
+    <title>shopping-cart</title>
+</head>
+<style>
+    
+</style>
+<body>
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+        <div class="navbar-brand">
+            <img src="Rectangle (8).png">
+            <input type="text"  maxlength="25" name="SearchText" class="search-key" style="width: 450px; height: 39px;">
+            <a href="#" class="btn btn-primary stretched-link"><img src="ch_16.png"></a>
+            <a class="hopping-cart1 " href="Shopping-cart.html" ><img src="t.png" width="28px" height="30px" style="margin-left: 195px;" >
+              <small class="bg-danger" style="border-radius: 5px;font-size: 15px; width: 8px;height: 8px; color: white;">0</small>
+            <a class="personal-site"  href="personal-site.html" style="border: 1px solid lightgray; margin-left: 4px; height: 18px;"><img src="px.png" width="32px" height="32px" ></a>
+            <h3 style="margin-top: -40px; margin-left: 980px;font-size: 12px;color: lightgray;">welcome!</h3>
+            <a href="#" style="margin-top: -50px; margin-left: 980px;font-size: 15px; color: black;">Signin|Register</a>
+        </div>
+    </div>
+</nav>
+
+<header class="bg-light" >
+    <h1 style="margin-left: 110px;">Category products</h1>
+    <a href="Home" style="margin-left: 110px;">Home</a>
+    <a href="Best category" style="margin-left:10px;">Best category</a>
+    <a href="#" style="color: black;margin-left: 15px;">Great articles</a>
+</header>
+
+<div class="container">
+<div class="row" style="margin-top: 50px;">
+  <div class="col-5">
+    <h4 class="" style="margin-left: 250px; font-size: 15px;">32 Items found</h4>
+  </div>
+  <div class="col-3">
+    <input type="text" width="50px" height="100px" style="margin-left: 335px;">
+  </div>
+  <div class="col-4">
+    <div class="sun" style=" margin-left: 245px;  border: 1px solid gray;border-radius: 8px; width: 80px;height: 30px;background-image: linear-gradient(to right,white 50% ,black 50%);"></div>
+  </div>
+</div>
+</div>
+
+<aside>
+<div id="product"> 
+    <h4 style="margin-left: 25px; color: #3167EB;">Product type</h4>
+    <br>
+    <input type="text" class="col-sm-8 my-18" id="usr" name="username" style="margin-left: 28px; height: 40px;">
+    <a href="#" class="btn btn-primary"><img src="ch_16.png"></a>
+    <br>
+    <nav style="margin-left: 28px;">
+        <h6>People</h6>
+        <h6>Watches</h6>
+        <h6>Cinema</h6>
+        <h6>Clothes</h6>
+        <h6>Home items</h6>
+        <h6>Animals</h6>
+        <h6>People</h6>
+    </nav>
+    <h4 style="margin-left: 25px; color: #3167EB;">Brands</h4>
+    <div style="margin-left: 50px;">
+      <p>Mercedes <small style=" margin-left: 150px; background:lightgrey; font-size: 12px; border-radius: 6px;">120</small></p>
+      <p>Toyota <small style=" margin-left: 175px; background:lightgrey; font-size: 15px; border-radius: 6px;">15</small></p>
+      <p>Mitsubishi <small style=" margin-left: 148px; background:lightgrey;  font-size: 15px; border-radius: 6px;">35</small></p>
+      <p>Nissan <small style=" margin-left: 175px; background:lightgrey;  font-size: 15px; border-radius: 6px;">89</small></p>
+      <p>Honda <small style=" margin-left: 175px; background:lightgrey;  font-size: 15px; border-radius: 6px;">30</small></p>
+    </div>
+</div> 
+<hr>
+<table>
+  <h4 style="margin-left: 20px; color: #3167EB;">Price range</h4>
+  <br>
+  
+  <tr>
+    <td><label for="min" style="margin-left:20px; ">Min</label></td>
+    <td><label for="max" style="margin-left:100px;">Max</label></td>
+  </tr>
+  <tr>
+    <td><input type="text" style="width: 105px; height: 35px; margin-left: 20px;"></td>
+    <td><input type="text" style="width: 105px; height: 35px; margin-left: 24px;"></td>
+  </tr>
+</table>
+<a href="#" class="btn btn-primary text-center" style="width: 234px; margin-top: 15px; margin-left: 20px;">Apply</a>
+<hr>
+<h4 style="margin-left: 20px; color: #3167EB;">Sizes</h4>
+
+<div class="">
+  <a href="#" class="btn btn-light text-center border border-1" style="width: 38px; margin-top: 15px; margin-left: 20px;">XS</a>
+  <a href="#" class="btn btn-light text-center border border-1" style="width: 45px; margin-top: 15px; margin-left: 20px;">SM</a>
+  <a href="#" class="btn btn-light text-center border border-1" style="width: 42px; margin-top: 15px; margin-left: 20px;">LG</a>
+  <a href="#" class="btn btn-light text-center border border-1" style="width: 45px; margin-top: 15px; margin-left: 20px;">XXL</a>
+</div>
+<hr>
+<h4 style="margin-top:-15px; margin-left: 20px; color: #3167EB;">More filter</h4>
+
+
+</aside>
+
+<section class="container  " style="margin-left: 350px;">
+<hr style="width: 830px;">
+<div class="row" >
+<div class="col-3">
+  <div class="card ">
+    <img src="gle.png" >
+    <small class="text-center" style="margin-top: -55px; color: white; background-color: #96969681;">Quick view</small>
+ <div cl backgass="card-body">
+    <p>Product name goes here just for demo item</p>
+    <h5>$1280<small style="font-size: 12px; color: #969696;">$1980</small></h5>
+    <a href="#" class="btn btn-primary text-center" style="width: 225px;">Add to cart</a>
+  </div>
+  </div>
+</div> 
+<div class="col-3">
+  <div class="card ">
+    <img src="e.png" >
+    <small class="text-center" style=" margin-top: -55px; color: white; background-color: #96969681;">Quick view</small>
+  <div class="card-body"width="25px">
+    <p>Product name goes here just for demo item</p>
+    <h5>$1280</h5>
+    <a href="#" class="btn btn-primary" style="width: 225px;">Add to cart</a>
+  </div>
+  </div>
+</div>
+<div class="col-3 ">
+  <div class="card ">
+    <img src="g.png" >
+    <small class="text-center" style="width: -115px; height: 24px; margin-top: -55px; color: white; background-color: #96969681;">Quick view</small>
+  <div class="card-body"width="25px">
+    <p>Product name goes here just for demo item</p>
+    <h5>$1280</h5>
+    <a href="#" class="btn btn-primary" style="width: 225px;">Add to cart</a>
+  </div>
+  </div>
+</div>
+</div>
+<br>
+<div class="row" >
+  <div class="col-3">
+    <div class="card ">
+      <img src="/tshirt.png" >
+      <small class="text-center" style="width: -115px; height: 24px; margin-top: -55px; color: white; background-color: #96969681;">Quick view</small>
+   <div class="card-body"width="25px">
+      <p>Product name goes here just for demo item</p>
+      <h5>$1280<small style="font-size: 12px; color: #969696;">$1980</small></h5>
+      <a href="#" class="btn btn-primary" style="width: 225px;">Add to cart</a>
+    </div>
+    </div>
+  </div> 
+  <div class="col-3">
+    <div class="card ">
+      <img src="R.png" >
+      <small class="text-center" style="width: -115px; height: 24px; margin-top: -55px; color: white; background-color: #96969681;">Quick view</small>
+    <div class="card-body"width="25px">
+      <p>Product name goes here just for demo item</p>
+      <h5>$1280</h5>
+      <a href="#" class="btn btn-primary" style="width: 225px;">Add to cart</a>
+    </div>
+    </div>
+  </div>
+  <div class="col-3 ">
+    <div class="card ">
+      <img src="Re.png" >
+      <small class="text-center" style="width: -115px; height: 24px; margin-top: -55px; color: white; background-color: #96969681;">Quick view</small>
+    <div class="card-body"width="25px">
+      <p>Product name goes here just for demo item</p>
+      <h5>$1280</h5>
+      <a href="#" class="btn btn-primary" style="width: 225px;">Add to cart</a>
+    </div>
+    </div>
+  </div>
+</div>
+<br>
+<div class="row" >
+  <div class="col-3">
+    <div class="card ">
+      <img src="kk.png" >
+      <small class="text-center" style="width: -115px; height: 24px; margin-top: -55px; color: white; background-color: #96969681;">Quick view</small>
+   <div class="card-body"width="25px">
+      <p>Product name goes here just for demo item</p>
+      <h5>$1280<small style="font-size: 12px; color: #969696;">$1980</small></h5>
+      <a href="#" class="btn btn-primary" style="width: 225px;">Add to cart</a>
+    </div>
+    </div>
+  </div> 
+  <div class="col-3">
+    <div class="card ">
+      <img src="gle.png" >
+      <small class="text-center" style="width: -115px; height: 24px; margin-top: -55px; color: white; background-color: #96969681;">Quick view</small>
+    <div class="card-body"width="25px">
+      <p>Product name goes here just for demo item</p>
+      <h5>$1280</h5>
+      <a href="#" class="btn btn-primary" style="width: 225px;">Add to cart</a>
+    </div>
+    </div>
+  </div>
+</div>
+</section>
+
+<nav aria-label="Page navigation example" style="margin-top: 50px; margin-left: 420px;">
+<ul class="pagination">
+  <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+  <li class="page-item"><a class="page-link" href="#">1</a></li>
+  <li class="page-item"><a class="page-link" href="#">2</a></li>
+  <li class="page-item"><a class="page-link" href="#">3</a></li>
+  <li class="page-item"><a class="page-link" href="#">Next</a></li>
+</ul>
+</nav> 
+    
+
+    <footer>
+        <P style="margin-top: 18px; font-size: 10px; margin-left: 995px; ">© Copyright 2019 All rights reserved<a href="#" style="margin-top: -9px; margin-left: -980px;">terms and contitions</a></P>
+        
+    </footer>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
